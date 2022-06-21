@@ -4,10 +4,11 @@
   "description": "",
   "main": "main.ts",
   "scripts": {
-    "start": "ts-node main.ts"
+    "start": "node main.js"
   },
   "keywords": [],
   "author": "",
+  "type": "module",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.1"
