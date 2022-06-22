@@ -45,7 +45,7 @@ export default function generate(level, readability, answers, isSaving) {
 
     }
 
-    console.log(password)
+    //console.log(password)
     return {
         result: true,
         generatedPassword: password

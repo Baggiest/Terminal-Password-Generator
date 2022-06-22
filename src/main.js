@@ -64,6 +64,7 @@ async function starter() {
             console.clear()
             await oraPromise(pass(difficulty, answers.readable, answers), chalkAnimation.rainbow("Generating a password...")).then(() => {
                 console.log("See ya again")
+                process.exit(0)
             })
 
 
